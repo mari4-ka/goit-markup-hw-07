@@ -1,4 +1,11 @@
-.hero-text {
+.hero {
+  &-title {
+    padding-top: 200px;
+    padding-bottom: 30px;
+    margin: 0 auto;
+    width: 696px;
+  }
+  &-text {
     margin: 0;
     color: $secondary-text-color;
     font-weight: 900;
@@ -8,28 +15,22 @@
     text-transform: uppercase;
     text-align: center;
   }
-.hero .overlay {
+  & .overlay {
     max-width: 1600px;
     height: 600px;
     margin: 0 auto;
     background-image: linear-gradient(
-        to right,
-        rgba(0, 0, 0, 0.4),
-        rgba(0, 0, 0, 0.4)
-      ),
-      url('../images/bg-photo.jpg');
+          to right,
+          rgba(0, 0, 0, 0.4),
+          rgba(0, 0, 0, 0.4)
+        ),
+        url('../images/bg-photo.jpg');
     background-color: $hero-bg-color;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
   }
-.hero-title {
-    padding-top: 200px;
-    padding-bottom: 30px;
-    margin: 0 auto;
-    width: 696px;
-  }
-  
+}  
   /*hero backdrop*/
   .backdrop {
     position: fixed;
@@ -45,8 +46,8 @@
     transition: opacity $function-time $function-cubic;
   
     z-index: 1;
-  }
-  .backdrop.is-hidden {
-    opacity: 0;
-    pointer-events: none;
+    &.is-hidden {
+      opacity: 0;
+      pointer-events: none;
+    }
   }

@@ -344,6 +344,7 @@ summary {
 
 .button {
   display: block;
+  margin: 0 auto;
   border: 1px solid transparent;
   border-radius: 4px;
   min-width: 200px;
@@ -562,6 +563,13 @@ img {
   margin-left: 50px;
 }
 
+.hero-title {
+  padding-top: 200px;
+  padding-bottom: 30px;
+  margin: 0 auto;
+  width: 696px;
+}
+
 .hero-text {
   margin: 0;
   color: #ffffff;
@@ -583,13 +591,6 @@ img {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-}
-
-.hero-title {
-  padding-top: 200px;
-  padding-bottom: 30px;
-  margin: 0 auto;
-  width: 696px;
 }
 
 /*hero backdrop*/
@@ -614,8 +615,6 @@ img {
 .button.modal-open {
   padding-right: 32px;
   padding-left: 32px;
-  margin: 0 auto;
-  text-align: center;
 }
 
 .button.modal-submit {
