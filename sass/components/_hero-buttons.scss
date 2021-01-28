@@ -1,0 +1,33 @@
+/*hero buttons*/
+button {
+    font-family: inherit;
+  }
+.button {
+    display: block;
+    margin: 0 auto;
+  
+    padding: 10px 32px;
+    min-width: 200px;
+    border: 1px solid transparent;
+    border-radius: 4px;
+  
+    color: $secondary-text-color;
+    background-color: $accent-color;
+  
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+    letter-spacing: 0.06em;
+    text-decoration: none;
+    text-align: center;
+    
+    &.primary {
+      color: $secondary-text-color;
+      background-color: $accent-color;
+      cursor: pointer;
+    }
+    &.secondary {
+      color: $title-text-color;
+      background-color: $secondary-bg-color;
+    }
+  }
