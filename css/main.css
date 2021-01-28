@@ -222,8 +222,8 @@ img {
   max-width: 1600px;
   height: 600px;
   margin: 0 auto;
-  background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.4)), to(rgba(0, 0, 0, 0.4))), url("/images/bg-photo.jpg");
-  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("/images/bg-photo.jpg");
+  background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.4)), to(rgba(0, 0, 0, 0.4))), url("../images/bg-photo.jpg");
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../images/bg-photo.jpg");
   background-color: #c4c4c4;
   background-repeat: no-repeat;
   background-size: cover;
@@ -289,7 +289,6 @@ button {
   background-color: #f5f4fa;
 }
 
-/*modal window*/
 .modal {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -455,14 +454,14 @@ button {
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;
   display: inline-flex;
-  background-image: url(/images/square.svg);
+  background-image: url(../images/square.svg);
   width: 16px;
   height: 15px;
   margin-right: 8.38px;
 }
 
 .checkbox:checked + .icon22::before {
-  background-image: url(/images/check.svg);
+  background-image: url(../images/check.svg);
 }
 
 .modal-icon {
