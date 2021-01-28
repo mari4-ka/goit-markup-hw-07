@@ -1,20 +1,23 @@
-@import 'utils/variables';
-@import 'utils/placeholders';
-@import 'utils/mixin';
-@import 'utils/common';
+@import './utils/normalize';
+@import './utils/fonts';
+@import './utils/variables';
+@import './utils/placeholders';
+@import './utils/mixin';
+@import './utils/common';
 
-@import 'components/header-page';
-@import 'components/logo';
-@import 'components/header-navigation';
-@import 'components/header-contacts';
+@import './components/header-page';
+@import './components/logo';
+@import './components/header-navigation';
+@import './components/header-contacts';
 
-@import 'components/section-hero';
-@import 'components/hero-buttons';
-@import 'components/modal-window';
+@import './components/section-hero';
+@import './components/buttons';
+@import './components/modal-window';
 
-@import 'components/section-decision';
-@import 'components/section-work';
-@import 'components/section-team';
-@import 'components/section-partners';
+@import './components/section-decision';
+@import './components/section-work';
+@import './components/section-team';
+@import './components/social-icons';
+@import './components/section-partners';
 
-@import 'components/footer';
+@import './components/footer';

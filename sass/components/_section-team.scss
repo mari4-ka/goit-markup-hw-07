@@ -34,14 +34,6 @@
         padding-right: 32px;
         margin-bottom: 30px;
     }
-    & .link-social {
-        fill: $icon-grey;
-        transition: $function-time $function-cubic;
-    }
-    & .link-social:hover,
-    & .link-social:focus {
-        fill: $icon-white;
-    }
 }
 .description {
     margin-top: 0px;

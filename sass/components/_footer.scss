@@ -53,40 +53,6 @@
   color: $secondary-text-color;
   text-transform: uppercase;
 }
-.social-list {
-  display: flex;
-  padding: 0;
-  margin: 0;
-}
-.social-list .list {
-  margin-right: 10px;
-}
-.social-list .list:last-child {
-  margin-right: 0px;
-}
-.link-social {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  padding: 0;
-  border: none;
-  height: 44px;
-  width: 44px;
-  border-radius: 50%;
-  background-color: rgba(255, 255, 255, 0.1);
-  fill: $icon-white;
-  transition: $function-time $function-cubic;
-}
-.link-social:hover,
-.link-social:focus {
-  background-color: $accent-color;
-  fill: $icon-white;
-}
-.icon-social {
-  height: 20px;
-  width: 20px;
-}
-
 .footer-mailing {
     margin-left: auto;
   }
@@ -104,30 +70,5 @@
     letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.6);
   }
-  .button-submit {
-    display: inline-flex;
-    align-items: center;
-    border: 1px solid transparent;
-    padding: 10px 29px;
-  
-    border-radius: 4px;
-    fill: $icon-white;
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 1.875;
-    letter-spacing: 0.06em;
-    background-color: $accent-color;
-    color: $secondary-text-color;
-    transition: $function-time $function-cubic;
-  }
-  .button-submit:hover,
-  .button-submit:focus {
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-    cursor: pointer;
-  }
-  .icon-send {
-    height: 24px;
-    width: 24px;
-    margin-left: 10px;
-  }
+
   

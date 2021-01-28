@@ -5,9 +5,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>WebStudio</title>
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css">
     <link rel="stylesheet" href="./css/main.min.css">
 </head>
 
@@ -58,7 +55,7 @@
                 <div class="hero-title">
                     <h1 class="hero-text">Эффективные решения для вашего бизнеса</h1>
                 </div>
-                <button type="button" class="button primary" data-open-modal>Заказать услугу</button>
+                <button type="button modal-open" class="button" data-open-modal>Заказать услугу</button>
                 <div class="backdrop is-hidden" data-backdrop>
                     <div class="modal">
                         <button type="button" class="close-button" data-close-modal>&#10006</button>
@@ -117,7 +114,7 @@
                                     </label>
                                 </li>
                             </ul>
-                            <button class="button-modal-submit" type="submit">Отправить</button>
+                            <button class="button modal-submit" type="submit">Отправить</button>
                         </form>
                     </div>
                 </div>
@@ -501,7 +498,7 @@
                         <label>
                             <input type="email" name="email" id="email-sign" placeholder="E-mail" />
                         </label>
-                        <button class="button-submit" type="submit">Подписаться
+                        <button class="button submit" type="submit">Подписаться
                             <svg class="icon-send">
                                 <use href="./images/sprite.svg#icon-send"></use>
                             </svg>
