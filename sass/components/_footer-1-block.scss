@@ -21,9 +21,10 @@
     margin-bottom: 9px;
     color: $secondary-text-color;
     line-height: $font-height-secondaty;
+    font-style: normal;
 }
 &-links {
-    color: $footer-links;
+    color: rgba(255, 255, 255, 0.6);
     line-height: $font-height-secondaty;
     text-decoration: none;
 }

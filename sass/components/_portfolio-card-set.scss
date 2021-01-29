@@ -25,7 +25,7 @@
     }
     & .link:hover,
     & .link:focus {
-      box-shadow: $card-set-shadow;
+      box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
     }
     & .link:hover .card-overlay,
     & .link:focus .card-overlay {
@@ -71,6 +71,6 @@
   padding: 63px 24px;
   font-size: $font-size-tertiary;
   line-height: $font-height-overlay;
-  background-color: $card-overlay;
+  background-color: rgba(33, 150, 243, 0.9);
   color: $secondary-text-color;
 }

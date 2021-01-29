@@ -21,7 +21,7 @@
 .footer .link-social {
     @extend %social-icons;
     fill: $icon-white;
-    background-color: $social-icon-bg;
+    background-color: rgba(255, 255, 255, 0.1);
 }
 .link-social:hover,
 .link-social:focus {
