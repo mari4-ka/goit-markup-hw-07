@@ -5,8 +5,10 @@ body {
   
     font-family: $font-family-basic;
     font-style: normal;
-    font-weight: 400;
-    letter-spacing: 00.03em;
+    font-size: $font-size-basic;
+    font-weight: $font-weight-normal;
+    letter-spacing: $font-spacing-basic;
+    line-height: $font-height-basic;
   }
   .container {
     margin-left: auto;

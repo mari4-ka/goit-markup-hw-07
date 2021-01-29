@@ -9,16 +9,13 @@
     margin-bottom: 50px;
 
     color: $title-text-color;
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 1.17;
+    font-weight: $font-weight-bold;
+    font-size: $font-size-title;
     text-align: center;
   }
 %header-link {
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 1.14;
-    letter-spacing: 0.02em;
+    font-weight: $font-weight-medium;
+    letter-spacing: $font-spacing-nav;
     text-decoration: none;
 }
 %button {
@@ -32,10 +29,10 @@
     padding-bottom: 10px;
 
     font-family: inherit;
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 1.8;
-    letter-spacing: 0.06em;
+    font-weight: $font-weight-bold;
+    font-size: $font-size-secondary;
+    line-height: $font-height-button;
+    letter-spacing: $font-spacing-accent;
 
     background-color: $accent-color;
     color: $secondary-text-color;
@@ -55,6 +52,6 @@
     height: 44px;
     width: 44px;
     border-radius: 50%;
-
+    
     transition: $function-time $function-cubic;
 }

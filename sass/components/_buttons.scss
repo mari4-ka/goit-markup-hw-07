@@ -16,10 +16,9 @@
   }
   &:hover,
   &:focus {
-     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+     box-shadow: $button-shadow;
   }
 }
-
   .icon-send {
     height: 24px;
     width: 24px;

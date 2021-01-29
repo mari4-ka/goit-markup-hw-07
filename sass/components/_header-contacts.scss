@@ -1,7 +1,6 @@
 .contacts {
   display: flex;
   margin-left: auto;
-
   &.list .item {
     display: flex;
   }
@@ -9,16 +8,13 @@
     display: flex;
     padding-top: 32px;
     padding-bottom: 32px;
- 
     color: $primary-text-color;
-
     @extend %header-link;
   }
   & .link.mail,
   & .link.tel {
-    fill: $primary-text-color;
     align-items: center;
-
+    fill: $primary-text-color;
     transition: $function-time $function-cubic;
   }
   & .icon-mail,
@@ -31,7 +27,6 @@
   & .link.tel:focus {
     color: $accent-color;
     fill: $accent-color;
-  
     cursor: pointer;
   }
   & .item + .item {

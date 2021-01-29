@@ -12,8 +12,55 @@ $border-partners: #afb1b8;
 $icon-white: #ffffff;
 $icon-grey: #afb1b8;
 
+$button-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+$card-set-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+$filter-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+$team-list-shadow: 0px 1px 3px rgba(161, 83, 83, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+
+$footer-links: rgba(255, 255, 255, 60%);
+$modal-close-button:  rgba(0, 0, 0, 0.1);
+$field-textarea: rgba(33, 33, 33, 0.2);
+$fieald-placeholder: rgba(117, 117, 117, 0.5);
+$card-overlay: rgba(33, 150, 243, 0.9);
+$portfolio-border: #eeeeee;
+
+$overlay-hero-bg:rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4);
+$backdrop-bg: rgba(0, 0, 0, 0.2);
+$overlay-work-bg: rgba(47, 48, 58, 0.8);
+$social-icon-bg: rgba(255, 255, 255, 0.1);
+
 $function-cubic: cubic-bezier(0.4, 0, 0.2, 1);
 $function-time: 250ms;
 
 $font-family-basic: Roboto, sans-serif;
 $font-family-logo: Raleway, sans-serif;
+
+$font-weight-normal: 400;
+$font-weight-medium: 500;
+$font-weight-bold: 700;
+$font-weight-black: 900;
+
+$font-size-basic: 14px;
+$font-size-secondary: 16px;
+$font-size-tertiary: 18px;
+
+$font-size-logo: 26px;
+$font-size-hero: 44px;
+
+$font-size-title: 36px;
+$font-size-field: 12px;
+$font-size-modal: 20px;
+
+$font-spacing-basic: 00.03em;
+$font-spacing-nav: 00.02em;
+$font-spacing-field: 00.01em;
+$font-spacing-accent: 00.06em;
+
+$font-height-basic: 1.17;
+$font-height-button: 1.8;
+$font-height-secondaty: 1.7;
+$font-height-tertiary: 2;
+$font-height-hero: 1.36;
+$font-height-overlay: 1.56;
+$font-height-placeholder: 1.25;
+$font-height-filter: 1.63;

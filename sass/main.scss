@@ -1,8 +1,8 @@
 @import './utils/normalize';
 @import './utils/fonts';
 @import './utils/variables';
-@import './utils/placeholders';
 @import './utils/mixin';
+@import './utils/placeholders';
 @import './utils/common';
 
 @import './components/header-page';
@@ -20,6 +20,10 @@
 @import './components/social-icons';
 @import './components/section-partners';
 
-@import './components/portfolio';
+@import './components/portfolio-filter';
+@import './components/portfolio-card-set';
 
 @import './components/footer';
+@import './components/footer-1-block';
+@import './components/footer-2-block';
+@import './components/footer-3-block';

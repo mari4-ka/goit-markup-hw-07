@@ -6,14 +6,10 @@
         @extend %list;
     }
     &-item {
-        display: flex;
-        justify-content: center;
-        align-items: center;
+        @include centeredFlex ();
     }
     &-link {
-        display: inline-flex;
-        align-items: center;
-        justify-content: center;
+        @include centeredFlex (inline-flex);
         border: none;
         border-radius: 4px;
         height: 90px;

@@ -1,0 +1,30 @@
+.footer-first-block {
+  margin-right: 70px;
+  & li {
+      margin-top: 0px;
+      margin-bottom: 9px;
+  }
+  & li:last-child {
+      margin-bottom: 0px;
+  }
+  & .logo {
+      margin-top: 0px;
+      margin-bottom: 20px;
+  }
+}
+.footer {
+&-studio {
+    color: $secondary-text-color;
+}
+&-adress {
+    margin-top: 0px;
+    margin-bottom: 9px;
+    color: $secondary-text-color;
+    line-height: $font-height-secondaty;
+}
+&-links {
+    color: $footer-links;
+    line-height: $font-height-secondaty;
+    text-decoration: none;
+}
+}
