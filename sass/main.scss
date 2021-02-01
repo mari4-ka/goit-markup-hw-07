@@ -1,29 +1,28 @@
-@import './utils/normalize';
-@import './utils/fonts';
 @import './utils/variables';
 @import './utils/mixin';
 @import './utils/placeholders';
-@import './utils/common';
+@import './utils/fonts';
 
-@import './components/header-page';
+@import './vendors/normalize';
+
+@import './base/common';
+
+@import './layout/header-page';
+@import './layout/header-navigation';
+@import './layout/header-contacts';
+@import './layout/section-hero';
+@import './layout/section-decision';
+@import './layout/section-work';
+@import './layout/section-team';
+@import './layout/section-partners';
+@import './layout/portfolio-filter';
+@import './layout/portfolio-card-set';
+@import './layout/footer';
+@import './layout/footer-1-block';
+@import './layout/footer-2-block';
+@import './layout/footer-3-block';
+
 @import './components/logo';
-@import './components/header-navigation';
-@import './components/header-contacts';
-
-@import './components/section-hero';
 @import './components/buttons';
 @import './components/modal-window';
-
-@import './components/section-decision';
-@import './components/section-work';
-@import './components/section-team';
 @import './components/social-icons';
-@import './components/section-partners';
-
-@import './components/portfolio-filter';
-@import './components/portfolio-card-set';
-
-@import './components/footer';
-@import './components/footer-1-block';
-@import './components/footer-2-block';
-@import './components/footer-3-block';
